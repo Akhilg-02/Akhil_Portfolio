@@ -254,6 +254,7 @@ header .navbar ul li a:hover{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
+    /* margin-left:30%; */
     border-radius: 5rem;
     padding:.5rem 2.5rem;
 }
@@ -293,9 +294,9 @@ header .navbar ul li a:hover{
 
 .portfolio .box-container .box{
     height: 35rem;
-    width:30rem;
+    width:100%;
     border-radius: 1rem;
-    margin:2rem;
+    /* margin:2rem; */
     overflow: hidden;
     cursor: pointer;
 }
@@ -303,13 +304,14 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
-    /* object-fit: cover; */
-    background-size: cover;
+    object-fit: cover;
+    margin-left: 1rem;
+    /* background-size: cover; */
 }
 
-.portfolio .box-container .box:hover img{
+/* .portfolio .box-container .box:hover img{
     transform: scale(1.2);
-}
+} */
 
 .contact .row{
     display: flex;
@@ -384,8 +386,9 @@ header .navbar ul li a:hover{
 #home .middle{
     border:10px solid #f9ca24;
     border-radius: 50rem;
-    width: 30rem;
-    margin-left: 40%;
+    width: 35rem;
+    /* margin-left: 40%; */
+    margin: auto;
    
 }
 
@@ -411,7 +414,7 @@ header .navbar ul li a:hover{
     
     border: 1px solid wheat;
     height: 100%;
-    width: 35%;
+    width: 50%;
     border-radius: 2rem;
 }
 
@@ -522,6 +525,7 @@ header .navbar ul li a:hover{
  
     .education .box-container .box{
         width:100%;
+        margin-left: 50px;
     }
 
     .portfolio .box-container .prop1{
