@@ -10,7 +10,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 }
 
@@ -412,30 +412,41 @@ header .navbar ul li a:hover{
 .box-container .prop1{
     display:inline-block;
     
-    border: 1px solid wheat;
+    border: 3px solid wheat;
     height: 100%;
     width: 50%;
     border-radius: 2rem;
 }
 
-.box-container .prop1 #one{
+/* .box-container .prop1 #one{
     float:left
+} */
+
+.mybutton{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 25rem;
+    justify-content:space-between;
+    margin: auto;
+    padding: 1rem;
 }
 
 
 
-.box-container .prop1 #two{
+/* .box-container .prop1 #two{
     float:right
-}
+} */
 
 .box-container .prop1 h1{
     padding: 2%;
+    font-size:1.8rem;
     color: #f9ca24;
 }
 
 .box-container .prop1 .tech{
     color: red;
     padding: 2%;
+    font-size:1.8rem;
     font-size: 1.5rem;
 }
 
@@ -447,9 +458,15 @@ header .navbar ul li a:hover{
 
 .prop1 .detail .lang{
     color:#f9ca24;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+
 }
 
+.content .infoBot .fab{
+    padding: 0.7%;
+    font-size: 350%;
+    color: #f9ca24;
+}
 
 
 
